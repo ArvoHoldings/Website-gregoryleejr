@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -12,23 +11,43 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        /* Animation for ⚡⚡⚡ */
+        .lightning {
+            display: inline-block;
+            font-size: 24px;
+            animation: move 1s infinite ease-in-out;
+        }
+
+        @keyframes move {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(10px); }
+            100% { transform: translateX(0); }
+        }
     </style>
 </head>
 
 <body>  
-    <h1 class="center" >Gregory Lee Jr</h1>
-    <img  class="center" src="/Images/portrait.jpg" height="200" width="200" alt="Arvo.me Logo" title="Gregory Lee Jr portrait">
+    <h1 class="center">Gregory Lee Jr</h1>
+
+    <img class="center" src="/Images/portrait.jpg" height="200" width="200" alt="Arvo.me Logo" title="Gregory Lee Jr portrait">
+
     <br>
-    <p class="center" >Sharing my thoughts and passions for business, money, and finance.
-        <br>
-        <br>
-        <br>
-        <br>
+
+    <p class="center">
+        Sharing my thoughts and passions for business, money, and finance.
+        <br><br>
+
+        <!-- ⚡⚡⚡ with animation -->
+        <span class="lightning">⚡⚡⚡</span>
+
+        <br><br><br><br>
+
         <a href="https://www.youtube.com/@gregoryleejrxyz">YouTube Page</a>
-        <br>
-        <br>
+        <br><br>
         <a href="https://calendly.com/gregoryleejr/30min">Connect with me</a>
-    </p>        
+    </p>
+
 </body>
 
 </html>
